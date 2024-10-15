@@ -1,0 +1,31 @@
+/* index.css */
+
+/* Reset default browser styles */
+* {
+  margin: 10px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: aqua; /* Light gray background */
+  color: #333; /* Dark text color */
+  line-height: 1.6; /* Improve readability */
+}
+
+a {
+  text-decoration: none;
+  color: #007bff; /* Bootstrap primary color */
+}
+
+a:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.container {
+  max-width: 1200px; /* Max width for main content */
+  margin: 0 auto; /* Center container */
+  padding: 20px; /* Add padding */
+}
+
