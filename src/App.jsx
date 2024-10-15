@@ -1,13 +1,13 @@
 // App.js
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Login from './components/Login';
-import Register from './components/Register';
-import Dashboard from './components/Dashboard';
-import EmailTemplateBuilder from './components/EmailTemplateBuilder';
-import UploadRecipientList from './components/UploadRecipientList';
-import Reports from './components/Reports';
+import Navbar from './components/NavBar.jsx';
+import Login from './components/Login.jsx';
+import Register from './components/Register.jsx';
+import Dashboard from './components/Dashboard.jsx';
+import EmailTemplateBuilder from './components/EmailTemplateBuilder.jsx';
+import UploadRecipientList from './components/UploadRecipientList.jsx';
+import Reports from './components/Reports.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
